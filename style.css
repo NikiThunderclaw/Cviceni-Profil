@@ -95,13 +95,16 @@ body {
 	border-right-width: 2px;
 	
 }
-.portfolio a:hover {
+.portfolio a:hover,
+.portfolio a:focus {
 	background-color: #e74c3c;	
 }
-.facebook a:hover {
+.facebook a:hover,
+.facebook a:focus {
 	background-color: #3b5998;
 }
-.twitter a:hover {
+.twitter a:hover,
+.twitter a:focus {
 	background-color: #1da1f2;
 }
 a {
@@ -112,6 +115,7 @@ a {
 .odkazy a {
 	padding: 15px;
 	display: block;
+	outline: none;
 
 }
 
