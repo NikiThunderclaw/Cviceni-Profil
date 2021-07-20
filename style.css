@@ -26,3 +26,95 @@ Pod čáru přijde tvůj kód
 body {
 	background-color: #bdc3c7;
 }
+.profil {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #31363b;
+	max-width: 300px;
+	color: #918f8f;
+	box-shadow: 3px 3px 10px #212121;
+}
+.foto {
+	width: 100%;
+}
+
+.logo {
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+	left: 210px;
+	bottom: -15px;
+	box-shadow: 0 3px 10px black;
+}
+
+.hlavicka {
+	position: relative;
+	font-size: 26px;
+}
+.jmeno {
+	font-family: "monserrat", sans-serif;
+	font-size: 26px;
+	color: white;
+}
+
+.obsah {
+	font-family: "source sans pro", sans-serif;
+	padding: 20px 25px;
+
+}
+
+.odkazy {
+	font-family: "monserrat", sans-serif;
+	text-transform: uppercase;
+	padding: 0;
+	text-align: center;
+}
+
+.portfolio {
+	text-align: center;
+	display: block;
+	border-style: solid;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-right-width: 0;
+	border-left-width: 0;
+	border-color: #3f464d;		
+}
+
+.facebook,
+.twitter {
+	display: inline-block;
+	border-style: solid;
+	border-width: 0;
+	border-color: #3f464d;
+	width: 50%;
+}
+
+.facebook {
+	border-right-width: 2px;
+	
+}
+.portfolio a:hover {
+	background-color: #e74c3c;	
+}
+.facebook a:hover {
+	background-color: #3b5998;
+}
+.twitter a:hover {
+	background-color: #1da1f2;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.odkazy a {
+	padding: 15px;
+	display: block;
+
+}
+
+ul {
+	padding: 0;
+}
